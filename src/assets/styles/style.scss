@@ -1,0 +1,48 @@
+$bg-header: rgb(255, 94, 0);
+$cl-link: white;
+$bg-footer: black;
+$cl-discount: red;
+$cl-sustainability: green;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#container {
+    padding: 100px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33 {
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+}
+
+.col-85 {
+    width: 85%;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+img {
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
