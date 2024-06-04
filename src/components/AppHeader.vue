@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "Header",
+    name: "AppHeader",
     data() {
         return {
             listLink: ["Donna", "Uomo", "Bambini"],
@@ -23,7 +23,7 @@ export default {
                 </div>
                 <div class="col-33">
                     <div class="logo">
-                        <img src="..\..\src\assets\img\boolean-logo.png" alt="logo">
+                        <img src="..\..\public\img\boolean-logo.png" alt="logo">
                     </div>
                 </div>
                 <div class="col-33 text-right">
@@ -40,7 +40,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../src/assets/styles/style' as *;
+@use '../src/assets/scss/main' as *;
 
 header {
     position: fixed;

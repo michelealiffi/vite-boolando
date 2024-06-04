@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "Footer"
+    name: "AppFooter"
 }
 </script>
 
@@ -36,7 +36,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../src/assets/styles/style' as *;
+@use '../src/assets/scss/main' as *;
 
 footer {
     background-color: $bg-footer;
@@ -44,7 +44,7 @@ footer {
     padding: 30px 0;
 }
 
-.footer-list ul li {
+:deep(ul li) {
     font-size: 13px;
     padding-top: 10px;
     padding-right: 10px;

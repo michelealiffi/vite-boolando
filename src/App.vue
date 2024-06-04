@@ -19,5 +19,5 @@
 </template>
   
 <style lang="scss">
-@use '../src/assets/styles/style.scss';
+@use '../src/assets/scss/main.scss';
 </style>
